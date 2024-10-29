@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="VANQUOCBUI.data_warehouse"
+  DTS:DTSID="{430A37D0-703B-4875-B8AA-E3856784D107}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=VANQUOCBUI;Initial Catalog=data_warehouse;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-DataWareHouse-{430A37D0-703B-4875-B8AA-E3856784D107}VANQUOCBUI.data_warehouse;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
